@@ -1,0 +1,78 @@
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .logo {
+    margin-top: 15px;
+  }
+  .l_top {
+    display: none;
+  }
+  .menu ul li a {
+    padding: 5px 0px !important;
+}
+.btn-search {
+    padding-left: 0;
+    padding-top: 11px;
+}
+.d_search {
+    top: -9px;
+    min-width: 205px;
+}
+.d_search[data-bs-popper] {
+    left: 60px;
+}
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+/* Header Start*/
+.logo {
+  margin-top: 15px;
+}
+.l_top {
+  display: none;
+}
+
+  .menu ul li a {
+    padding: 5px 0px !important;
+}
+.btn-search {
+    padding-left: 0;
+    padding-top: 11px;
+}
+.d_search {
+    top: -9px;
+}
+.d_search[data-bs-popper] {
+    left: 60px;
+}
+/* Header End */
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+/* Header Start */
+  .menu ul li a {
+    padding: 5px 0px !important;
+}
+
+.btn-search {
+    padding-left: 0;
+    padding-top: 11px;
+}
+.d_search {
+    top: -9px;
+}
+.d_search[data-bs-popper] {
+    left: 60px;
+}
+/* Hader End */
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+
+/* // Extra large devices (Extralarge desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {}
+
+/* // Extra Extra large devices (Extra extra large desktops, 1400px and up) */
+@media (min-width: 1400px) {}

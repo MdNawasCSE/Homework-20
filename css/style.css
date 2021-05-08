@@ -1,0 +1,116 @@
+.manual {
+  color: white;
+  background: rgba(109, 0, 25, 1);
+  background: -moz-linear-gradient(left, rgba(109, 0, 25, 1) 0%, rgba(109, 0, 25, 1) 22%, rgba(169, 3, 41, 1) 47%, rgba(109, 0, 25, 1) 82%, rgba(109, 0, 25, 1) 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, rgba(109, 0, 25, 1)), color-stop(22%, rgba(109, 0, 25, 1)), color-stop(47%, rgba(169, 3, 41, 1)), color-stop(82%, rgba(109, 0, 25, 1)), color-stop(100%, rgba(109, 0, 25, 1)));
+  background: -webkit-linear-gradient(left, rgba(109, 0, 25, 1) 0%, rgba(109, 0, 25, 1) 22%, rgba(169, 3, 41, 1) 47%, rgba(109, 0, 25, 1) 82%, rgba(109, 0, 25, 1) 100%);
+  background: -o-linear-gradient(left, rgba(109, 0, 25, 1) 0%, rgba(109, 0, 25, 1) 22%, rgba(169, 3, 41, 1) 47%, rgba(109, 0, 25, 1) 82%, rgba(109, 0, 25, 1) 100%);
+  background: -ms-linear-gradient(left, rgba(109, 0, 25, 1) 0%, rgba(109, 0, 25, 1) 22%, rgba(169, 3, 41, 1) 47%, rgba(109, 0, 25, 1) 82%, rgba(109, 0, 25, 1) 100%);
+  background: linear-gradient(to right, rgba(109, 0, 25, 1) 0%, rgba(109, 0, 25, 1) 22%, rgba(169, 3, 41, 1) 47%, rgba(109, 0, 25, 1) 82%, rgba(109, 0, 25, 1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#6d0019', endColorstr='#6d0019', GradientType=1);
+}
+@font-face {
+  src: url(../fonts/Lato/Lato-Bold.ttf);
+  font-family: Lato-Bold;
+}
+
+@font-face {
+  src: url(../fonts/Lato/Lato-Regular.ttf);
+  font-family: Lato-Regular;
+}
+
+@font-face {
+  src: url(../fonts/Roboto/Roboto-Medium.ttf);
+  font-family: Roboto-Medium;
+}
+
+/* Common Start */
+body {
+  font-family: Lato-Regular;
+  font-size: 16px;
+  font-weight: 700;
+  color: #8E8E8E;
+}
+
+/* Common End */
+/* Header Logo part Start */
+header {
+
+}
+
+.c_nav {
+  padding-top: 0;
+}
+
+.n-brand {
+  padding-top: 0;
+	margin-right: 0;
+}
+
+.logo {
+  font-family: Lato-Regular;
+}
+
+.l_top {
+  margin-bottom: -8px;
+}
+
+.l_text {
+  font-size: 30px;
+  font-weight: 500;
+  color: #333333;
+  padding-right: 12px;
+}
+
+.menu {
+  margin-top: 30px;
+}
+
+.menu ul li a {
+  font-family: Lato-Regular;
+  font-size: 16px;
+  font-weigh t: 700;
+  color: #8E8E8E !important;
+  padding: 0 15px !important;
+}
+
+.menu ul li a:hover {
+  color: #333333 !important;
+}
+
+.btn-search {
+  color: #8E8E8E !important;
+  padding-top: 0px;
+}
+
+.btn-search:hover {
+  color: #333333 !important;
+}
+
+.btn-search:focus {
+  box-shadow: none;
+}
+
+.d_search {
+  min-width: 350px;
+  top: 52px;
+  padding: 10px;
+}
+
+.d_search[data-bs-popper] {
+  left: -314px;
+  margin-top: 0.125rem;
+}
+
+.col-pad {
+  padding-left: 0px;
+}
+
+.s-button {
+  margin-top: 6px;
+  background-color: transparent;
+  border: none;
+  color: #8E8E8E;
+}
+
+/* Header Logo part End */

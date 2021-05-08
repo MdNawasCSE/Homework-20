@@ -1,0 +1,64 @@
+.manual {
+  color: white;
+  background: rgba(109, 0, 25, 1);
+  background: -moz-linear-gradient(left, rgba(109, 0, 25, 1) 0%, rgba(109, 0, 25, 1) 22%, rgba(169, 3, 41, 1) 47%, rgba(109, 0, 25, 1) 82%, rgba(109, 0, 25, 1) 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, rgba(109, 0, 25, 1)), color-stop(22%, rgba(109, 0, 25, 1)), color-stop(47%, rgba(169, 3, 41, 1)), color-stop(82%, rgba(109, 0, 25, 1)), color-stop(100%, rgba(109, 0, 25, 1)));
+  background: -webkit-linear-gradient(left, rgba(109, 0, 25, 1) 0%, rgba(109, 0, 25, 1) 22%, rgba(169, 3, 41, 1) 47%, rgba(109, 0, 25, 1) 82%, rgba(109, 0, 25, 1) 100%);
+  background: -o-linear-gradient(left, rgba(109, 0, 25, 1) 0%, rgba(109, 0, 25, 1) 22%, rgba(169, 3, 41, 1) 47%, rgba(109, 0, 25, 1) 82%, rgba(109, 0, 25, 1) 100%);
+  background: -ms-linear-gradient(left, rgba(109, 0, 25, 1) 0%, rgba(109, 0, 25, 1) 22%, rgba(169, 3, 41, 1) 47%, rgba(109, 0, 25, 1) 82%, rgba(109, 0, 25, 1) 100%);
+  background: linear-gradient(to right, rgba(109, 0, 25, 1) 0%, rgba(109, 0, 25, 1) 22%, rgba(169, 3, 41, 1) 47%, rgba(109, 0, 25, 1) 82%, rgba(109, 0, 25, 1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#6d0019', endColorstr='#6d0019', GradientType=1);
+}
+
+/* Fonts Integration Start*/
+@font-face {
+  src: url(./../fonts/PT_Sans/PTSans-Regular.ttf);
+  font-family: PTSans-Regular;
+}
+
+@font-face {
+  src: url(./../fonts/PT_Sans/PTSans-Bold.ttf);
+  font-family: PTSans-Bold;
+}
+
+/* Fonts Integration End */
+/* Body Common Start*/
+body {
+  font-family: PTSans-Regular;
+  font-size: 16px;
+  font-weight: 400;
+  color: #555555;
+}
+
+/* BOdy Common End */
+/* Header Start*/
+header {
+  background-color: #fcdb00;
+}
+
+.c-nav {
+  background-color: #fcdb00;
+}
+
+.menu {}
+
+.menu li {}
+
+.menu li a {
+  font-family: PTSans-Bold;
+  font-size: 22px;
+  color: #010101 !important;
+  margin-top: 9px;
+}
+
+.n-p {
+  padding: 0 35px !important;
+}
+
+.n-lp {
+  padding: 0 0 0 35px !important;
+}
+
+.menu li a:hover {}
+
+/* Header End */
